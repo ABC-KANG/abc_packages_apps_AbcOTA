@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.purenexus.ota.xml;
+package com.abc.ota.xml;
 
 import android.util.Xml;
 

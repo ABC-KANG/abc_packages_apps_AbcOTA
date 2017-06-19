@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.purenexus.ota.configs;
+package com.abc.ota.configs;
 
 import android.content.Context;
 
-import com.purenexus.ota.xml.OTALink;
-import com.purenexus.ota.xml.OTAParser;
-import com.purenexus.ota.utils.OTAUtils;
+import com.abc.ota.xml.OTALink;
+import com.abc.ota.xml.OTAParser;
+import com.abc.ota.utils.OTAUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

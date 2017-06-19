@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.purenexus.ota.tasks;
+package com.abc.ota.tasks;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -28,16 +28,16 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 
-import com.purenexus.ota.MainActivity;
-import com.purenexus.ota.R;
-import com.purenexus.ota.configs.AppConfig;
-import com.purenexus.ota.configs.LinkConfig;
-import com.purenexus.ota.configs.OTAConfig;
-import com.purenexus.ota.configs.OTAVersion;
-import com.purenexus.ota.dialogs.WaitDialogHandler;
-import com.purenexus.ota.utils.OTAUtils;
-import com.purenexus.ota.xml.OTADevice;
-import com.purenexus.ota.xml.OTAParser;
+import com.abc.ota.MainActivity;
+import com.abc.ota.R;
+import com.abc.ota.configs.AppConfig;
+import com.abc.ota.configs.LinkConfig;
+import com.abc.ota.configs.OTAConfig;
+import com.abc.ota.configs.OTAVersion;
+import com.abc.ota.dialogs.WaitDialogHandler;
+import com.abc.ota.utils.OTAUtils;
+import com.abc.ota.xml.OTADevice;
+import com.abc.ota.xml.OTAParser;
 
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -154,8 +154,8 @@ public class CheckUpdateTask extends AsyncTask<Context, Void, OTADevice> {
         Notification.Builder builder = new Notification.Builder(context);
         builder.setContentTitle(context.getString(R.string.notification_title));
         builder.setContentText(context.getString(R.string.notification_message));
-        builder.setSmallIcon(R.drawable.ic_notification_slimota);
-        builder.setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_slimota));
+        builder.setSmallIcon(R.drawable.ic_notification_abcota);
+        builder.setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_abcota));
 
         Intent intent = new Intent(context, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

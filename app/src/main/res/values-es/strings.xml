@@ -18,8 +18,8 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">Actualizaciones de PureNexus</string>
-    <string name="app_title">Actualizaciones de PureNexus</string>
+    <string name="app_name">Actualizaciones de ABC</string>
+    <string name="app_title">Actualizaciones de ABC</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>

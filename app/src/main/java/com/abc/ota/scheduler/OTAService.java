@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.purenexus.ota.scheduler;
+package com.abc.ota.scheduler;
 
 import android.content.Intent;
 import android.os.AsyncTask;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
-import com.purenexus.ota.tasks.CheckUpdateTask;
+import com.abc.ota.tasks.CheckUpdateTask;
 
 public class OTAService extends WakefulIntentService {
 

@@ -17,8 +17,8 @@
   -->
 <resources>
   <!-- App -->
-  <string name="app_name">Обновления PureNexus</string>
-  <string name="app_title">Обновления PureNexus</string>
+  <string name="app_name">Обновления ABC</string>
+  <string name="app_title">Обновления ABC</string>
   <!-- Categories -->
   <string name="ota_category">OTA</string>
   <string name="links_category">Ссылки</string>

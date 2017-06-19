@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.purenexus.ota.fragments;
+package com.abc.ota.fragments;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -24,8 +24,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.purenexus.ota.R;
-import com.purenexus.ota.utils.Changelog;
+import com.abc.ota.R;
+import com.abc.ota.utils.Changelog;
 
 public class ChangelogFragment extends PreferenceFragment {
 

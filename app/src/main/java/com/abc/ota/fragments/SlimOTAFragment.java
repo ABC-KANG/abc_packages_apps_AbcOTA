@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.purenexus.ota.fragments;
+package com.abc.ota.fragments;
 
 import android.app.FragmentTransaction;
 import android.content.SharedPreferences;
@@ -26,14 +26,14 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import com.purenexus.ota.R;
-import com.purenexus.ota.configs.AppConfig;
-import com.purenexus.ota.configs.LinkConfig;
-import com.purenexus.ota.configs.OTAVersion;
-import com.purenexus.ota.dialogs.WaitDialogFragment;
-import com.purenexus.ota.tasks.CheckUpdateTask;
-import com.purenexus.ota.utils.OTAUtils;
-import com.purenexus.ota.xml.OTALink;
+import com.abc.ota.R;
+import com.abc.ota.configs.AppConfig;
+import com.abc.ota.configs.LinkConfig;
+import com.abc.ota.configs.OTAVersion;
+import com.abc.ota.dialogs.WaitDialogFragment;
+import com.abc.ota.tasks.CheckUpdateTask;
+import com.abc.ota.utils.OTAUtils;
+import com.abc.ota.xml.OTALink;
 
 import java.util.List;
 

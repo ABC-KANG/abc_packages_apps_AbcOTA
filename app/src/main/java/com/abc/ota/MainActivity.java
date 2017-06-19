@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.purenexus.ota;
+package com.abc.ota;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 
-import com.purenexus.ota.configs.LinkConfig;
-import com.purenexus.ota.dialogs.WaitDialogFragment;
-import com.purenexus.ota.fragments.SlimOTAFragment;
+import com.abc.ota.configs.LinkConfig;
+import com.abc.ota.dialogs.WaitDialogFragment;
+import com.abc.ota.fragments.SlimOTAFragment;
 
 public class MainActivity extends PreferenceActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {
