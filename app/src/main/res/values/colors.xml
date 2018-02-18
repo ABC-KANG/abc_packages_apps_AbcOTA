@@ -17,5 +17,5 @@
 
 <resources>
     <!-- Adaptive icon background layer color -->
-    <color name="ic_launcher_abc_background">@*android:color/accent_device_default_dark</color>
+    <color name="ic_launcher_abc_background">#EEEEEE</color>
 </resources>
