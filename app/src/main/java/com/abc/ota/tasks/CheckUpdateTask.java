@@ -167,7 +167,7 @@ public class CheckUpdateTask extends AsyncTask<Context, Void, OTADevice> {
             notificationManager.createNotificationChannel(mChannel);
 
             NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context.getApplicationContext())
-                    .setSmallIcon(R.drawable.ic_notification_abc)
+                    .setSmallIcon(R.mipmap.ic_launcher_abc)
                     .setContentTitle(context.getString(R.string.notification_title))
                     .setContentText(context.getString(R.string.notification_message))
                     .setOnlyAlertOnce(true)
