@@ -37,7 +37,7 @@ import com.abc.ota.xml.OTALink;
 
 import java.util.List;
 
-public class ABCOTAFragment extends PreferenceFragment implements
+public class AbcOTAFragment extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener,
         SharedPreferences.OnSharedPreferenceChangeListener ,
         WaitDialogFragment.OTADialogListener,

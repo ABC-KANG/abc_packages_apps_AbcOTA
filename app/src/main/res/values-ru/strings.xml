@@ -48,7 +48,7 @@
     <!-- Notification -->
     <string name="notification_title">Обновление ABC ROM</string>
     <string name="notification_message">Доступно новое обновление!</string>
-    <string name="abc_channel">Уведомления ABCOTA</string>
+    <string name="abc_channel">Уведомления AbcOTA</string>
     <string name="abc_channel_description">Уведомления о новой версии ABC ROM</string>
 
     <!-- Dialog -->

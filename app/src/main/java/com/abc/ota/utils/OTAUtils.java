@@ -38,7 +38,7 @@ import java.util.Properties;
 
 public final class OTAUtils {
 
-    private static final String TAG = "ABCOTA";
+    private static final String TAG = "AbcOTA";
     private static final boolean DEBUG = true;
 
     private OTAUtils() {

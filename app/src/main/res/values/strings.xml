@@ -50,7 +50,7 @@
     <!-- Notification -->
     <string name="notification_title">ABC ROM update</string>
     <string name="notification_message">A new version is available!</string>
-    <string name="abc_channel">ABCOTA notifications</string>
+    <string name="abc_channel">AbcOTA notifications</string>
     <string name="abc_channel_description">Notifications about new ABC ROM updates</string>
 
     <!-- Dialog -->

@@ -23,22 +23,22 @@ import android.view.MenuItem;
 
 import com.abc.ota.configs.LinkConfig;
 import com.abc.ota.dialogs.WaitDialogFragment;
-import com.abc.ota.fragments.ABCOTAFragment;
+import com.abc.ota.fragments.AbcOTAFragment;
 
 public class MainActivity extends PreferenceActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {
 
-    private static final String FRAGMENT_TAG = ABCOTAFragment.class.getName();
-    private ABCOTAFragment mFragment;
+    private static final String FRAGMENT_TAG = AbcOTAFragment.class.getName();
+    private AbcOTAFragment mFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mFragment = (ABCOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
+        mFragment = (AbcOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
         if (mFragment == null) {
             getFragmentManager().beginTransaction()
-                    .replace(android.R.id.content, new ABCOTAFragment(), FRAGMENT_TAG)
+                    .replace(android.R.id.content, new AbcOTAFragment(), FRAGMENT_TAG)
                     .commit();
         }
 
@@ -47,7 +47,7 @@ public class MainActivity extends PreferenceActivity implements
 
     @Override
     protected boolean isValidFragment(String fragmentName) {
-        return ABCOTAFragment.class.getName().equalsIgnoreCase(fragmentName);
+        return AbcOTAFragment.class.getName().equalsIgnoreCase(fragmentName);
     }
 
     @Override
