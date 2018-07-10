@@ -18,8 +18,8 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">ABC ROM updates</string>
-    <string name="app_title">ABC ROM updates</string>
+    <string name="app_name">ABC Updater</string>
+    <string name="app_title">ABC Updater</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>
